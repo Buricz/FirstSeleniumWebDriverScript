@@ -16,8 +16,7 @@ public class FirstSeleniumWebDriverScript {
         WebDriver driver = new FirefoxDriver();
 
         String url = "https://www.google.com/";
-
-
+        
         driver.get(url);
         Thread.sleep(2000);
         WebElement wyszukiwarka =driver.findElement(By.xpath("/html/body/div/div[3]/form/div[2]/div/div[1]/div/div[1]/input"));
